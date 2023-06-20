@@ -25,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
         showToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getBaseContext(),"hello toast",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(),"vamos a contar",Toast.LENGTH_SHORT).show();
             }
         });
-        textview.setOnClickListener(new View.OnClickListener() {
+        counter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
